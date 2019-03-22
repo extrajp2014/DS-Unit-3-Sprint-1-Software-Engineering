@@ -261,14 +261,17 @@ it's okay to leave a comment explaining it and move on.
 Acme Corporation isn't just a few `.py` files. If you want to grow in your
 career here, you'll have to answer the following:
 
+Answer both of these questions (baseline ~5 sentences) here in text.
+
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  * An important part of code reviews is to find mistakes that maybe overlook.  I can provide a fresh set of eyes to identify possible bugs in the codes and make the process of testing more robust.  Another benefit from code reviews is I can learn new techniques from reviewing my peer codes.  Since every coder has diverse background and experience, the way each person write codes is also probably unique.  By looking at various code styles, I can broaden my skills and ideas while helping to improve their codes.
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
-
-Answer both of these questions (baseline ~5 sentences) here in text.
+ Containers help to make our testing, staging and deployment environments identical. If we have multiple computers and want to run our codes on all of them, we can use containers to make them all compatible if necessary. Utilizing containers software such as Docker,  we can quickly standardize the operating system environment and any software dependency that our codes may require.  This allows us to manage our multiple computers and deploy softwares on them efficiciently.  Containers help us to make the most of our computers and reduce our need to purchase new hardware to meet specific programming framework.
 
 ### Part 8 - Turn it in!
 
