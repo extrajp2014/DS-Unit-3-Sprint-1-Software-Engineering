@@ -42,10 +42,9 @@ class AcmeReportTests(unittest.TestCase):
     def test_legal_names(self):
         """Test products have valid names"""
         products_name = [i.name for i in generate_products()]
-        all_words = adjectives + nouns
         for name in products_name:
-            self.assertIn(name.split()[0], all_words)
-            self.assertIn(name.split()[1], all_words)
+            self.assertIn(name.split()[0], adjectives)
+            self.assertIn(name.split()[1], nouns)
 
 if __name__ == '__main__':
     unittest.main()
