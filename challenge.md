@@ -271,7 +271,7 @@ Answer both of these questions (baseline ~5 sentences) here in text.
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
- Containers help to make our testing, staging and deployment environments identical. If we have multiple computers and want to run our codes on all of them, we can use containers to make them all compatible if necessary. Utilizing containers software such as Docker,  we can quickly standardize the operating system environment and any software dependency that our codes may require.  This allows us to manage our multiple computers and deploy softwares on them efficiciently.  Containers help us to make the most of our computers and reduce our need to purchase new hardware to meet specific programming framework.
+  * Containers help to make our testing, staging and deployment environments identical. If we have multiple computers and want to run our codes on all of them, we can use containers to make them all compatible if necessary. Utilizing containers software such as Docker,  we can quickly standardize the operating system environment and any software dependency that our codes may require.  This allows us to manage our multiple computers and deploy softwares on them efficiciently.  Containers help us to make the most of our computers and reduce our need to purchase new hardware to meet specific programming framework.
 
 ### Part 8 - Turn it in!
 
