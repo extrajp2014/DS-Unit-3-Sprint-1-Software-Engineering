@@ -29,6 +29,7 @@ def inventory_report(products):
     products_price = [i.price for i in products]
     products_weight = [i.weight for i in products]
     products_flammability = [i.flammability for i in products]
+    print("ACME CORPORATION OFFICIAL INVENTORY REPORT")
     print("Unique product names:", len(set(products_name)))
     print("Average price:", sum(products_price)/len(products_price))
     print("Average weight:", sum(products_weight)/len(products_weight))
